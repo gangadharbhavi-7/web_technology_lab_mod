@@ -1,0 +1,63 @@
+/* Style for H2 heading */ 
+h2 { 
+    color: #3498db; 
+    font-family: Arial, sans-serif; 
+    font-size: 24px; 
+    text-transform: uppercase; 
+    text-align: center; 
+    } 
+    /* Style for H3 heading */ 
+    h3 { 
+    color: #2ecc71; 
+    font-family: 'Georgia', serif; 
+    font-size: 20px; 
+    font-style: italic; 
+    } 
+    /* Style for Horizontal Rule (HR) */ 
+    hr { 
+    border: 1px solid #333; 
+    margin: 20px 0; 
+    } 
+    /* Style for Paragraph (P) */ 
+    p { 
+    color: #34495e; 
+    font-size: 16px; 
+    line-height: 1.6; 
+    margin-bottom: 10px; 
+    } 
+    /* Style for Div Container */ 
+    div { 
+    background-color: #f1c40f; 
+    padding: 20px; 
+    margin: 20px 0; 
+    } 
+    /* border-radius: 3px;  */
+    /* Style for Span */ 
+    span { 
+    color: #e74c3c; 
+    font-weight: bold; 
+    } 
+    /* Style for Time */ 
+    time { 
+    color: #8e44ad; 
+    font-size: 14px; 
+    display: block; 
+    margin-top: 10px; 
+    } 
+    /* Style for Image (IMG) */ 
+    img { 
+    max-width: 25%; 
+    height: auto; 
+    display: block; 
+    margin: 10px 0; 
+    } 
+    /* Style for Links (A) */ 
+    a { 
+    color: #e67e22; 
+    text-decoration: none; 
+    font-weight: bold; 
+    } 
+    a:hover { 
+    text-decoration: underline; 
+    } 
+    
