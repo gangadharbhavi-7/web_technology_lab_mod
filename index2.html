@@ -1,0 +1,107 @@
+<html> 
+<head> 
+    <title>Table</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: lightblue; 
+            margin: 0; 
+            padding: 0; 
+        } 
+        h1 { 
+            text-align: center; 
+        } 
+        table { 
+            border-collapse: collapse; 
+            margin: 20px auto; 
+     border: 2px solid black; 
+            background-color: white; 
+        } 
+ th,td { 
+            border: 1px solid black; 
+            padding: 10px; 
+            text-align: center; 
+        } 
+ th { 
+   
+            background-color: coral; 
+             
+ 
+        } 
+ 
+ 
+ .highlight{ 
+  background-color:pink; 
+ } 
+.special{ 
+ background-color:green; 
+} 
+.lab{ 
+background-color:yellow; 
+} 
+        </style> 
+</head> 
+<body> 
+    <h1>TIME TABLE</h1> 
+    <table> 
+        <tr> 
+            <th>Day/Period</th> 
+            <th>I<br>9:00-10:00</th> 
+            <th>II<br>10:00-11:00</th> 
+            <th>III<br>11:00-12:00</th> 
+            <th>IV<br>12:00-1:00</th> 
+            <th>1:00-1:45</th> 
+            <th>V<br>1:45-2:45</th> 
+            <th>VI<br>2:45-3:45</th> 
+            
+        </tr> 
+        <tr> 
+            <td class="highlight"><b>Monday</b></td> 
+            <td>RM</td> 
+            <td class="special">AI</td> 
+            <td>TC</td> 
+            <td>SE</td> 
+            <td class="highlight" rowspan="6"><b>LUNCH</b></td> 
+            <td class="lab" colspan="2" >WEB LAB (C1) </td> 
+             
+        </tr> 
+        <tr> 
+            <td class="highlight"><b>Tuesday</b></td> 
+            <td>RM</td> 
+            <td>SE</td> 
+            <td colspan="2" class="lab" >WEB LAB (C2) </td> 
+            <td>TC</td> 
+            <td class="special">AI</td> 
+             
+        </tr> 
+        <tr> 
+            <td class="highlight"><b>Wednesday</b></td> 
+     <td>SE</td> 
+            <td class="special">AI</td> 
+            <td>TC</td> 
+            <td>CN</td> 
+        </tr> 
+        <tr> 
+            <td class="highlight"><b>Thursday</b></td> 
+            <td colspan="2" class="lab">CN LAB (C1) </td> 
+            <td>RM</td> 
+            <td>SE</td> 
+            <td>TC</td> 
+            <td>CN</td> 
+        </tr> 
+        <tr> 
+            <td class="highlight"><b>Friday</b></td> 
+            <td>TC</td> 
+            <td>EVS</td> 
+            <td>CN</td> 
+            <td>RM</td> 
+            <td colspan="2" class="lab">CN LAB (C2) </td> 
+        </tr> 
+        <tr> 
+            <td class="highlight"><b>Saturday</b></td> 
+     <td colspan="2" class="special">NSS/SPORTS/YOGA</td>  
+        </tr> 
+ 
+     </table> 
+</body> 
+</html>
